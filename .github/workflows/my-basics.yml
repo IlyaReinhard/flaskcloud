@@ -15,14 +15,14 @@ jobs:
 
     
     steps:
-      - name: Print Hello Message in Testing
-        run: echo "hello world from testing"
+    - name: Print Hello Message in Testing
+      run: echo "hello world from testing"
         
-      - name: execute few commands
-        run : |
-          echo "Hello Message One"
-          echo "Hello Message 2"
-          echo "Appllication name: ${{env. APPLICATION_NAME}}"
+    - name: execute few commands
+      run : |
+        echo "Hello Message One"
+        echo "Hello Message 2"
+        echo "Appllication name: ${{env. APPLICATION_NAME}}"
       
       
   my_deploy:
