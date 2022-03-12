@@ -12,12 +12,9 @@ on:
 jobs:
   my_testing:
     runs-on: ubuntu-latest
-
-    
     steps:
     - name: Print Hello Message in Testing
       run: echo "hello world from testing"
-        
     - name: execute few commands
       run : |
         echo "Hello Message One"
