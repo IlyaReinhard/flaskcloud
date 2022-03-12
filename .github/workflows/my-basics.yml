@@ -3,7 +3,7 @@
 name: My-Github_action
 env:
   APPLICATION_NAME    : "MyFlask"
-  DEPLOY_PACKAGE_NAME : "flask_deploy_ver_${{github.sha}}
+  DEPLOY_PACKAGE_NAME : "flask_deploy_ver_${{github.sha}}"
 
 on:
  push:
